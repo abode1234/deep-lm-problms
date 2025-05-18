@@ -1,0 +1,55 @@
+Q1: What is Linear Regression?
+
+A: Linear Regression is a staitistical technique used 
+to predict the value of a dependent variable based on 
+the values of one or more independent variables. 
+It assumes a linear relationship between the variables.
+
+the equation is y^ =X⋅θ 
+
+y^ is the predicted value of the dependent variable
+X is the matrix of independent variables
+θ is the vector of coefficients
+
+
+Q2: What is Mean Squared Error (MSE)?
+
+A: Mean Squared Error (MSE) is a measure of the 
+average squared difference between the predicted    
+values and the actual values of a dependent variable.
+
+The equation is MSE = 1/2n⋅∑(y^i-yi)^2
+
+Where :
+
+y^ is the predicted value of the dependent variables
+y is the actual value of the dependent variables
+n is the number of observations
+i is the index of the observation
+
+
+Q3: What is Gradient Descent?
+
+A: Gradient Descent is an optimization algorithm used 
+to find the minimum value of a function by iteratively 
+adjusting the parameters of a model.
+
+
+The equation is θ =θ−α⋅∇J(θ)
+
+Where:
+
+θ is the vector of coefficients
+α is the learning rate
+J is the cost function
+
+
+
+
+How the code well works?
+
+1- linear Regression use to predict output value using input value
+
+2- Mean Squared Error is  Measure how far the predictions are from the true values. 
+
+2- Gradient Descent is : Update the parameters θ to reduce the cost.
